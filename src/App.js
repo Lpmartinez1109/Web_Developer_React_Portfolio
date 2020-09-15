@@ -5,11 +5,12 @@ import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
+import resumeData from './components/resume/resumeData';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header resumeData={resumeData} />
         <About />
         <Resume />
         <Portfolio />
@@ -19,4 +20,5 @@ class App extends Component {
     );
   }
 }
+
 export default App;
