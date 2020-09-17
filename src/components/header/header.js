@@ -39,8 +39,7 @@ export default class Header extends Component {
           <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
         </p>
       </header> {/* Header End */}
-    );
-            </React.Fragment>
+                  </React.Fragment>
         )
     }
 };
