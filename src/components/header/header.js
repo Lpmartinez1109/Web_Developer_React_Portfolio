@@ -19,19 +19,19 @@ export default class Header extends Component {
         </nav> {/* end #nav-wrap */}
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
-            <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-              effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
+            <h1 className="responsive-headline">I am Luis Martinez.</h1>
+            <h3>I'm a Chicago based <span>front-end developer</span>, <span>back-end developer</span> and <span>full stack web developer</span> working hard to create awesome and
+              effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling </a>
               and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul className="social">
-              <li><a href="#"><i className="fa fa-facebook" /></a></li>
-              <li><a href="#"><i className="fa fa-twitter" /></a></li>
-              <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-              <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="#"><i className="fa fa-instagram" /></a></li>
-              <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-              <li><a href="#"><i className="fa fa-skype" /></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100001276301148" target="_blank"><i className="fa fa-facebook" /></a></li>
+              <li><a href="https://twitter.com/LPMartinez20" target="_blank"><i className="fa fa-twitter" /></a></li>
+              {/* <li><a href="#"><i className="fa fa-google-plus" /></a></li> */}
+              <li><a href="https://www.linkedin.com/in/luis-martinezjr/" target="_blank"><i className="fa fa-linkedin" /></a></li>
+              <li><a href="https://www.instagram.com/lpmartinez1109/?hl=en" target="_blank"><i className="fa fa-instagram" /></a></li>
+              <li><a href="https://github.com/Lpmartinez1109" target="_blank"><i className="fa fa-github" /></a></li>
+              {/* <li><a href="#"><i className="fa fa-skype" /></a></li> */}
             </ul>
           </div>
         </div>
