@@ -16,5 +16,5 @@ let resumeData = {
             "className" : "fa fa-github"
         }
     ]
-}
+};
 export default resumeData;

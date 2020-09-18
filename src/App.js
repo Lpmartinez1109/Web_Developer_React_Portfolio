@@ -3,7 +3,7 @@ import Header from './components/header/header';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
-import Contact from './components/contact/contact';
+// import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import resumeData from './components/resume/resumeData';
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
         <About />
         <Resume />
         <Portfolio />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
     );
