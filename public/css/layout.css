@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #ff0000; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #ff0000; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #ff0000; }
 
 
 /* ------------------------------------------------------------------ */
@@ -194,7 +194,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #ff0000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -242,7 +242,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #ff0000; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #ff0000;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -327,18 +327,18 @@ ul#nav li.current a { color: #F06000; }
 
 .javascript {
   	width: 80%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 .express {
   	width: 60%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: express 2s ease;
+  	-webkit-animation: express 2s ease;
 }
 .nodejs {
   	width: 65%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: nodejs 2s ease;
+  	-webkit-animation: nodejs 2s ease;
 }
 .css {
   	width: 90%;
@@ -351,69 +351,69 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
 .reactjs {
    width: 75%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
 }
 .bootstrap {
    width: 80%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: bootstrap 2s ease;
+   -webkit-animation: bootstrap 2s ease;
 }
 .api {
    width: 70%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: api 2s ease;
+   -webkit-animation: api 2s ease;
 }
 .mongodb {
    width: 75%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: mongodb 2s ease;
+   -webkit-animation: mongodb 2s ease;
 }
 .mysql{
    width: 75%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
 }
 .mvc{
    width: 65%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: mvc 2s ease;
+   -webkit-animation: mvc 2s ease;
 }
 .heroku{
    width: 70%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: heroku 2s ease;
+   -webkit-animation: heroku 2s ease;
 }
 .git{
    width: 70%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: git 2s ease;
+   -webkit-animation: git 2s ease;
 }
 .github{
    width: 70%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: github 2s ease;
+   -webkit-animation: github 2s ease;
 }
 .cplusplus{
    width: 65%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: cplusplus 2s ease;
+   -webkit-animation: cplusplus 2s ease;
 }
 .python{
    width: 65%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
 }
 .vuejs{
    width: 70%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+   -moz-animation: vuejs 2s ease;
+   -webkit-animation: vuejs 2s ease;
 }
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }

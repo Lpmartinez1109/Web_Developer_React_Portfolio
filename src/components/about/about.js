@@ -19,7 +19,8 @@ export default class About extends Component{
                 <h2>Contact Details</h2>
                 <p className="address">
                   <span>Luis Martinez</span><br />
-                  <span>lpmartinez1109@gmail.com</span>
+                  <span>lpmartinez1109@gmail.com</span><br />
+                  <span>(773)-476-7840</span>
                 </p>
               </div>
               <div className="columns download">
