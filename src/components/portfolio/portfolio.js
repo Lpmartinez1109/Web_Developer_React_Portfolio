@@ -11,12 +11,12 @@ export default class Portfolio extends Component{
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/coffee.jpg" />
+                  <a href="https://thawing-cliffs-03966.herokuapp.com/" target="_blank" title>
+                    <img alt="" src="public/images/porfolio/knightfall.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Coffee</h5>
-                        <p>Illustrration</p>
+                        <h5>KnightFall</h5>
+                        <p>A RPG-style game</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
