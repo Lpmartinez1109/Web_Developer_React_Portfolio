@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+import knightfall from './knightfall.png';
+import titanic from './titanic.png';
+import dashboard from './Weather_Dashboard.png';
+
 export default class Portfolio extends Component{
     render(){
         return(
@@ -11,8 +15,8 @@ export default class Portfolio extends Component{
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://thawing-cliffs-03966.herokuapp.com/" target="_blank" title>
-                    <img alt="" src="public/images/porfolio/knightfall.png" />
+                  <a href="https://thawing-cliffs-03966.herokuapp.com/" title>
+                    <img alt="KnightFall" src={knightfall} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>KnightFall</h5>
@@ -25,12 +29,12 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-02" title>
-                    <img alt="" src="images/portfolio/console.jpg" />
+                  <a href="https://calm-ravine-14459.herokuapp.com/" target="_blank" title>
+                    <img alt="Titanic Homepage" src={titanic} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Console</h5>
-                        <p>Web Development</p>
+                        <h5>Titanic: An Educational Experience</h5>
+                        <p>An educational project which allows users to experience life onboard the Titanic.</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
