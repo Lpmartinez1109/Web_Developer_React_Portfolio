@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import knightfall from './knightfall.png';
 import titanic from './titanic.png';
-import dashboard from './Weather_Dashboard.png';
+import dashboard from './weatherdashboard.png';
+import datenight from './datenight.png';
+import budget from './progressivebudget.png';
+import quiz from './chicagoquiz.png';
 
 export default class Portfolio extends Component{
     render(){
@@ -15,7 +18,7 @@ export default class Portfolio extends Component{
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://thawing-cliffs-03966.herokuapp.com/" title>
+                  <a href="https://thawing-cliffs-03966.herokuapp.com/" target="_blank" rel="noopener noreferrer" title>
                     <img alt="KnightFall" src={knightfall} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -29,7 +32,7 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://calm-ravine-14459.herokuapp.com/" target="_blank" title>
+                  <a href="https://calm-ravine-14459.herokuapp.com/" target="_blank" rel="noopener noreferrer" title>
                     <img alt="Titanic Homepage" src={titanic} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -43,12 +46,12 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-03" title>
-                    <img alt="" src="images/portfolio/judah.jpg" />
+                  <a href="https://kaitlynsalemi.github.io/Date-Night-Generator/" target="_blank" rel="noopener noreferrer" title>
+                    <img alt="Date Night" src={datenight} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Judah</h5>
-                        <p>Webdesign</p>
+                        <h5>Dinner And A Movie</h5>
+                        <p>A date-night planning application</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -57,12 +60,12 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-04" title>
-                    <img alt="" src="images/portfolio/into-the-light.jpg" />
+                  <a href="https://lpmartinez1109.github.io/Weather_Dashboard/"  rel="noopener noreferrer" title>
+                    <img alt="" src={dashboard} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Into The Light</h5>
-                        <p>Photography</p>
+                        <h5>Weather Dashboard</h5>
+                        <p>A weather application</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
