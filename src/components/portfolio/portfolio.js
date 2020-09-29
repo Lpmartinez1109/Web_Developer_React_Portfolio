@@ -74,12 +74,12 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-05" title>
-                    <img alt="" src="images/portfolio/farmerboy.jpg" />
+                  <a href="https://limitless-sea-69514.herokuapp.com/" target="_blank" rel="noopener noreferrer" title>
+                    <img alt="Budget Application" src={ budget } />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Farmer Boy</h5>
-                        <p>Branding</p>
+                        <h5>Progressive Budget App</h5>
+                        <p>A budget tracking application</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -88,12 +88,12 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-06" title>
-                    <img alt="" src="images/portfolio/girl.jpg" />
+                  <a href="https://lpmartinez1109.github.io/Chicago_Code_Quiz/" target="_blank" rel="noopener noreferrer" title>
+                    <img alt="Chicago Code Quiz" src= { quiz } />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Girl</h5>
-                        <p>Photography</p>
+                        <h5>Chicago Code Quiz</h5>
+                        <p>A fun trivia game based on Chicago facts</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
