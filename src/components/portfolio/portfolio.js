@@ -3,7 +3,7 @@ import knightfall from './knightfall.png';
 import titanic from './titanic.png';
 import dashboard from './weatherdashboard.png';
 import datenight from './datenight.png';
-import budget from './progressivebudget.png';
+import budget from './budget_app.png';
 import quiz from './chicagoquiz.png';
 
 export default class Portfolio extends Component{
@@ -74,7 +74,7 @@ export default class Portfolio extends Component{
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://limitless-sea-69514.herokuapp.com/" target="_blank" rel="noopener noreferrer" title>
+                  <a href="https://fierce-harbor-27667.herokuapp.com/" target="_blank" rel="noopener noreferrer" title>
                     <img alt="Budget Application" src={ budget } />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
