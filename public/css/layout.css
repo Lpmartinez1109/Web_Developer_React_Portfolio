@@ -39,7 +39,9 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
+span {
+   color: red;
+}
 /* vertically center banner section */
 header:before {
    content: '';
@@ -73,7 +75,7 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: red;
 }
 header .banner-text hr {
    width: 60%;
