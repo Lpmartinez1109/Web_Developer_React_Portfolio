@@ -20,7 +20,6 @@ export default class Footer extends Component {
             </ul>
             <ul className="copyright">
               <li>© Copyright 2020</li>
-              <li>Design Inspired by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
             </ul>
           </div>
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
