@@ -33,15 +33,13 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/portfolio/background-image.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
-span {
-   color: red;
-}
+
 /* vertically center banner section */
 header:before {
    content: '';
@@ -83,7 +81,9 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
-
+header .responsive-headline span{
+   color: red;
+}
 /* header social links */
 header .social {
    margin: 24px 0;
