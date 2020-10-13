@@ -89,7 +89,7 @@ export default class Resume extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>Web Devloper with a background in Journalism and experience in working with front-end, back-end and full stack web development. Efficient in working independently and with teams across multiple tasks and in problem-solving to develop functioning applications. Experience in working in collaborative, deadline-driven environments.
+            <p>Web Developer with a background in Journalism and experience in working with front-end, back-end and full stack web development. Efficient in working independently and with teams across multiple tasks and in problem-solving to develop functioning applications. Experience in working in collaborative, deadline-driven environments.
             </p>
             <div className="bars">
               <ul className="skills">
